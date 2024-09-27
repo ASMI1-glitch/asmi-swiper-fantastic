@@ -1,0 +1,20 @@
+/* src/styles/Card.module.css */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px; /* Adjust width as needed */
+  margin: 16px; /* Adjust spacing as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  object-fit: cover; /* Prevent image overflow */
+}
+
+.info {
+  padding: 8px;
+}

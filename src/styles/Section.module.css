@@ -1,0 +1,16 @@
+/* src/styles/Section.module.css */
+.section {
+  margin: 32px 0; /* Adjust spacing as needed */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow multiple cards in a row */
+  gap: 16px; /* Spacing between cards */
+}
